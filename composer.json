@@ -20,6 +20,9 @@
         "issues": "https://github.com/picocms/pico-theme/issues",
         "source": "https://github.com/picocms/pico-theme"
     },
+    "require": {
+        "picocms/pico": "self.version"
+    },
     "extra": {
         "installer-name": "default",
         "branch-alias": {
