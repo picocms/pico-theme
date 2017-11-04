@@ -2,7 +2,7 @@
     "name": "picocms/pico-theme",
     "type": "pico-theme",
     "description": "This is Pico's official default theme. Pico is a stupidly simple, blazing fast, flat file CMS.",
-    "keywords": ["pico","pico-theme"],
+    "keywords": [ "pico", "picocms", "picocms-theme", "pico-theme", "default-theme" ],
     "homepage": "http://picocms.org/",
     "license": "MIT",
     "authors": [
