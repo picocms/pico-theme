@@ -35,7 +35,7 @@ utils.slideUp = function (element, finishCallback, startCallback)
     if (!utils.canSlide()) {
         if (startCallback) startCallback();
         element.className += (element.className !== '') ? ' hidden' : 'hidden';
-        if (finishCallback) window.requestAnimationFrame(finishCallback);
+        if (finishCallback) window.setTimeout(finishCallback, 16);
         return;
     }
 
@@ -83,7 +83,7 @@ utils.slideDown = function (element, finishCallback, startCallback)
     if (!utils.canSlide()) {
         if (startCallback) startCallback();
         element.className = element.className.replace(/\bhidden\b */g, '');
-        if (finishCallback) window.requestAnimationFrame(finishCallback);
+        if (finishCallback) window.setTimeout(finishCallback, 16);
         return;
     }
 
