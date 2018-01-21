@@ -49,3 +49,15 @@ social:
       icon: chat
 ---
 ```
+
+Getting Help
+------------
+
+Please refer to the ["Getting Help" section](https://github.com/picocms/Pico#getting-help) of our main repository.
+
+Contributing
+------------
+
+Please refer to the ["Contributing" section](https://github.com/picocms/Pico#contributing) of our main repository.
+
+By contributing to Pico, you accept and agree to the *Developer Certificate of Origin* for your present and future contributions submitted to Pico. Please refer to the ["Developer Certificate of Origin" section](https://github.com/picocms/Pico/blob/master/CONTRIBUTING.md#developer-certificate-of-origin) in the `CONTRIBUTING.md` of our main repository.
