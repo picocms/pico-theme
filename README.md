@@ -28,13 +28,13 @@ The versioning of Pico's default theme strictly follows the version of Pico's co
 Usage
 -----
 
-Pico's default theme isn't really intended to be used for a productive website, it's rather a starting point for your own theme. After you've added a custom theme (e.g. the theme `my-custom-theme`) to your Pico installation, simply add the following line to your `config/config.yml`:
+Pico's default theme isn't really intended to be used for a productive website, it's rather a starting point for creating your own theme. Simply copy the theme's directory (`themes/default/` to e.g. `themes/my_theme/`) and add the following line to your `config/config.yml`:
 
 ```yaml
-theme: my-custom-theme
+theme: my_theme
 ```
 
-Pico's default theme is now completely disabled and won't ever interfere with your custom theme or your website in general anymore. If you want to use Pico's default theme again, either remove the line or replace it by `theme: default`.
+You can now edit the theme's stylesheets and JavaScript to fit your needs. If you rather want to use a third-party theme, simply add the theme's directory to your `themes/` directory (e.g. `themes/some_other_theme/`) and update your `config/config.yml` accordingly. Pico's default theme is now completely disabled and won't ever interfere with your custom theme or your website in general anymore. If you want to use Pico's default theme again, either remove the line or replace it by `theme: default`.
 
 Anyway, since Pico's default theme is meant to be a starting point for your own theme, it demonstrates how themes can allow one to tweak a theme's behavior. For this reason it supports a "Widescreen" mode: By adding `theme_config.widescreen: true` to your `config/config.yml`, the theme's main container grows from 768px to 1152px breadth due to adding `class="widescreen"` to the website's `<body>` element. Pico's default theme furthermore supports adding social buttons to its footer. Rather than using Pico's config for this, it uses the YAML Frontmatter of the `content/_meta.yml` Markdown file. Here's `content/_meta.yml` from Pico's sample contents:
 
