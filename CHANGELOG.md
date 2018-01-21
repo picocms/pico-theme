@@ -9,11 +9,12 @@ Pico Default Theme Changelog
           details.
 
 ### Version 2.0.0-beta.2
-Released: -
+Released: 2018-01-21
 
 ```
 * [Fixed] Fix sliding animation of collapsible menu in IE 9
 * [Changed] Move Fontello font to `icon/` directory
+* [Changed] Move stylesheets to `css/` directory
 * [Changed] Improve Fontello font copyright notice
 * [Changed] Add Droid Sans and Droid Sans Mono font files to `font/` directory,
             making Pico's default theme fully self-containing
