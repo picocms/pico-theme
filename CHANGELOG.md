@@ -9,10 +9,11 @@ Pico Default Theme Changelog
           details.
 
 ### Version 2.0.0
-Released: -
+Released: 2018-07-01
 
 ```
 * [New] Add Bountysource
+* [Changed] Improve documentation
 ```
 
 ### Version 2.0.0-beta.3
