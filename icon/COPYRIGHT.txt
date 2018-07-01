@@ -14,10 +14,10 @@ Font license info
 
 ## Font Awesome
 
-    Copyright (C) 2012 by Dave Gandy
+    Copyright (C) 2016 by Dave Gandy
 
     Author:     Dave Gandy
     License:    SIL OFL 1.1 <http://scripts.sil.org/OFL>
     Homepage:   http://fortawesome.github.com/Font-Awesome/
 
-    Icons:      menu, github-circled ("octocat"), chat
+    Icons:      chat, github-circled ("octocat"), menu, dollar

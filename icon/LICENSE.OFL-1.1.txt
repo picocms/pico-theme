@@ -1,4 +1,4 @@
-Copyright (c) 2012, Dave Gandy <http://fontawesome.io>,
+Copyright (c) 2016, Dave Gandy <http://fontawesome.io>,
 with Reserved Font Name Font Awesome.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
