@@ -8,6 +8,13 @@ Pico Default Theme Changelog
           refer to both the UPGRADE and NEWS sections of the docs for more
           details.
 
+### Version 2.0.5-beta.1
+Released: 2019-01-03
+
+```
+* [New] Add `2.0.x-dev` alias for master branch to `composer.json`
+```
+
 ### Version 2.0.4
 Released: 2018-12-17
 
