@@ -24,6 +24,9 @@
         "picocms/pico": "self.version"
     },
     "extra": {
-        "installer-name": "default"
+        "installer-name": "default",
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
     }
 }
