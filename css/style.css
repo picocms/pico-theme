@@ -234,7 +234,7 @@ th {
     color: #333;
 }
 
-td, th {                                         border: solid 1px #ccc; }
+td, th {                                         border: 1px solid #ccc; }
 tr:not(:last-child) td, tr:not(:last-child) th { border-bottom: 0 none; }
 thead tr:last-child th {                         border-bottom: 0 none; }
 td:not(:last-child), th:not(:last-child) {       border-right: 0 none; }
@@ -302,7 +302,7 @@ blockquote {
 label, fieldset legend { font-weight: bold; }
 
 input:not([type="checkbox"]):not([type="radio"]), button, select, textarea, fieldset, fieldset legend {
-    border: solid 1px #ccc;
+    border: 1px solid #ccc;
     border-radius: 0.3em;
     background: #fff;
     -webkit-transition: none .2s ease-in;
