@@ -28,7 +28,6 @@ utils.canSlide = function ()
  * @param  function    finishCallback function to call when the animation has
  *     been finished (i.e. the element is hidden)
  * @param  function    startCallback  function to call when the animation starts
- * @return void
  */
 utils.slideUp = function (element, finishCallback, startCallback)
 {
@@ -76,7 +75,6 @@ utils.slideUp = function (element, finishCallback, startCallback)
  * @param  function    finishCallback function to call when the animation has
  *     been finished (i.e. the element is visible)
  * @param  function    startCallback  function to call when the animation starts
- * @return void
  */
 utils.slideDown = function (element, finishCallback, startCallback)
 {
