@@ -32,13 +32,10 @@
             </h1>
             <div id="nav" role="region" tabindex="-1">
                 <ul>
-                    {% for page in pages if page.title and not page.hidden %}
-                        {% set pageDepth = page.id|split('/')|length %}
-                        {% if (pageDepth == 2) and (page.id ends with "/index") or (pageDepth == 1) %}
-                            <li{% if page.id == current_page.id %} class="active"{% endif %}>
-                                <a href="{{ page.url }}">{{ page.title }}</a>
-                            </li>
-                        {% endif %}
+                    {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                        <li{% if page.id == current_page.id %} class="active"{% endif %}>
+                            <a href="{{ page.url }}">{{ page.title }}</a>
+                        </li>
                     {% endfor %}
                 </ul>
             </div>
