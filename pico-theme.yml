@@ -1,0 +1,11 @@
+api_version: 3
+
+meta:
+    Social: social
+
+twig_config:
+    autoescape: html
+    strict_variables: false
+    charset: utf-8
+
+widescreen: false               # Use more horicontal space (i.e. make the site container wider)
