@@ -185,7 +185,7 @@ p, td, th, li, dd {
     word-wrap: break-word;
 }
 
-p, hr, table, .table-responsive, ol, ul, dl, pre, blockquote, fieldset {
+p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
     margin-bottom: 1em;
 }
 
