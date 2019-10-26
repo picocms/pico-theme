@@ -6,7 +6,7 @@
  * @author  Daniel Rudolf
  * @link    http://picocms.org
  * @license http://opensource.org/licenses/MIT The MIT License
- * @version 2.0
+ * @version 2.1
  */
 
 utils = {};
@@ -14,7 +14,7 @@ utils = {};
 /**
  * Checks whether the client's browser is able to slide elements or not
  *
- * @return boolean TRUE when the browser supports sliding, FALSE otherwise
+ * @return {bool} TRUE when the browser supports sliding, FALSE otherwise
  */
 utils.canSlide = function ()
 {
@@ -24,10 +24,10 @@ utils.canSlide = function ()
 /**
  * Slides a element up (i.e. hide a element by changing its height to 0px)
  *
- * @param  HTMLElement element        the element to slide up
- * @param  function    finishCallback function to call when the animation has
+ * @param {HTMLElement} element        the element to slide up
+ * @param {function}    finishCallback function to call when the animation has
  *     been finished (i.e. the element is hidden)
- * @param  function    startCallback  function to call when the animation starts
+ * @param {function}    startCallback  function to call when the animation starts
  */
 utils.slideUp = function (element, finishCallback, startCallback)
 {
@@ -71,10 +71,10 @@ utils.slideUp = function (element, finishCallback, startCallback)
 /**
  * Slides a element down (i.e. show a hidden element)
  *
- * @param  HTMLElement element        the element to slide down
- * @param  function    finishCallback function to call when the animation has
+ * @param {HTMLElement} element        the element to slide down
+ * @param {function}    finishCallback function to call when the animation has
  *     been finished (i.e. the element is visible)
- * @param  function    startCallback  function to call when the animation starts
+ * @param {function}    startCallback  function to call when the animation starts
  */
 utils.slideDown = function (element, finishCallback, startCallback)
 {
@@ -124,8 +124,9 @@ utils.slideDown = function (element, finishCallback, startCallback)
 /**
  * Checks whether a element is visible or not
  *
- * @param  HTMLElement element the element to check
- * @return boolean             TRUE when the element is visible, FALSE otherwise
+ * @param {HTMLElement} element the element to check
+ *
+ * @return {bool} TRUE when the element is visible, FALSE otherwise
  */
 utils.isElementVisible = function (element)
 {
