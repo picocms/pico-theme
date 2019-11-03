@@ -9,7 +9,7 @@ Pico Default Theme Changelog
           details.
 
 ### Version 2.1.0-beta.1
-Released: -
+Released: 2019-11-03
 
 ```
 * [Changed] Add basic `pico-theme.yml` to use API v3, enable Twig's autoescape
