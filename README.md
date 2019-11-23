@@ -40,7 +40,7 @@ Anyway, since Pico's default theme is meant to be a starting point for your own 
 
 ```yaml
 ---
-social:
+Social:
     - title: Visit us on GitHub
       url: https://github.com/picocms/Pico
       icon: octocat
@@ -49,6 +49,8 @@ social:
       icon: chat
 ---
 ```
+
+You should also check out the theme's `pico-theme.yml`: First of all it tells Pico to use the latest API version for themes and adjusts Pico's default Twig config. But more importantly it also registers the mentioned `widescreen` theme config as well as the meta header `Social`.
 
 Getting Help
 ------------
