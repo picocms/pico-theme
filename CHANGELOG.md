@@ -8,6 +8,15 @@ Pico Default Theme Changelog
           refer to both the UPGRADE and NEWS sections of the docs for more
           details.
 
+### Version 2.1.0
+Released: -
+
+```
+* [New] Add Pico's official logo and tagline
+* [New] Add some utility classes for typography and images
+* [Changed] Improve documentation of `pico-theme.yml`
+```
+
 ### Version 2.1.0-beta.1
 Released: 2019-11-03
 
