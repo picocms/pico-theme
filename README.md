@@ -10,7 +10,7 @@ Please refer to [`picocms/Pico`](https://github.com/picocms/Pico) to get info ab
 Screenshot
 ----------
 
-![Pico Screenshot](https://picocms.github.io/screenshots/pico-20.png)
+![Pico Screenshot](https://picocms.github.io/screenshots/pico-21.png)
 
 Install
 -------
