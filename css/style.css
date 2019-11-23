@@ -65,17 +65,24 @@ body { display: flex; flex-direction: column; }
 
 #header { background: #2EAE9B; }
 
-#header h1 {
+#title, #logo {
     float: left;
-    font-size: 2rem;
-    margin: 0;
-    padding: 1.5em 1em 1.5em 0;
+    padding: 3em 3em 3em 0;
 }
-#header h1 a, #header h1 a:hover { color: #fff; }
+
+#title * { margin: 0; color: #fff; }
+#title p { font-style: italic; }
+
+#logo { height: 10.8em; }
+#logo * { display: block; height: 100%; }
+#logo img { min-width: 4.8em; }
+
+#logo + #title h1 { margin: 0.8rem 0; }
+#logo + #title.tagline h1 { margin: 0; }
 
 #nav {
-    text-align: right;
     padding: 3em 0;
+    text-align: right;
 }
 #nav ul {
     list-style: none;
@@ -127,13 +134,11 @@ body { display: flex; flex-direction: column; }
 @media (max-width: 767px) {
     #main { padding: 2em 0 1em; }
 
-    #header h1 {
-        float: none;
-        padding: 0.5em 0;
-    }
+    #title, #logo { padding: 2em 1.5em 2em 0; }
+    #logo { height: 8.8em; }
 
     #nav {
-        clear: right;
+        clear: both;
         padding: 0;
     }
     #nav ul {
@@ -153,7 +158,7 @@ body { display: flex; flex-direction: column; }
         display: block;
         float: right;
         width: 2em;
-        margin: 0.6667em 0 0.6667em 1.3333em;
+        margin: 0.6667em 0;
         font-size: 1.5rem;
         line-height: 2em;
         text-align: center;

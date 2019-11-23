@@ -21,16 +21,26 @@
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
 
-    <div id="header">
+    <div id="header" role="banner">
         <div class="container">
             <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
                 <span class="icon-menu" aria-hidden="true"></span>
                 <span class="sr-only">Toggle Menu</span>
             </a>
-            <h1>
-                <a href="{{ "index"|link }}">{{ site_title }}</a>
-            </h1>
-            <div id="nav" role="region" tabindex="-1">
+            {% if pages._meta.meta.logo %}
+                <div id="logo" aria-hidden="true">
+                    <a href="{{ "index"|link }}">
+                        <img src="{{ pages._meta.meta.logo|url }}" alt="" />
+                    </a>
+                </div>
+            {% endif %}
+            <div id="title"{{ pages._meta.meta.tagline ? ' class="tagline"' }}>
+                <a href="{{ "index"|link }}">
+                    <h1>{{ site_title }}</h1>
+                    {{ pages._meta.meta.tagline|markdown }}
+                </a>
+            </div>
+            <div id="nav" role="navigation" tabindex="-1">
                 <ul>
                     {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                         <li{% if page.id == current_page.id %} class="active"{% endif %}>
@@ -42,7 +52,7 @@
         </div>
     </div>
 
-    <div id="main">
+    <div id="main" role="main">
         <div class="container">
             {{ content }}
         </div>
