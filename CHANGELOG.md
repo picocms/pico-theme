@@ -9,12 +9,13 @@ Pico Default Theme Changelog
           details.
 
 ### Version 2.1.0
-Released: -
+Released: 2019-11-24
 
 ```
 * [New] Add Pico's official logo and tagline
 * [New] Add some utility classes for typography and images
 * [Changed] Improve documentation of `pico-theme.yml`
+* [Changed] Various small improvements
 ```
 
 ### Version 2.1.0-beta.1
@@ -26,6 +27,7 @@ Released: 2019-11-03
 * [Changed] Use Pico's `pages` Twig function to create the main navigation
 * [Changed] Improve formatting of definition lists and inline code snippets
 * [Changed] Improve JSDoc class docs
+* [Changed] Various small improvements
 ```
 
 ### Version 2.0.5-beta.1
