@@ -10,7 +10,7 @@ Please refer to [`picocms/Pico`](https://github.com/picocms/Pico) to get info ab
 Screenshot
 ----------
 
-![Pico Screenshot](https://picocms.github.io/screenshots/pico-20.png)
+![Pico Screenshot](https://picocms.github.io/screenshots/pico-21.png)
 
 Install
 -------
@@ -36,11 +36,13 @@ theme: my_theme
 
 You can now edit the theme's stylesheets and JavaScript to fit your needs. If you rather want to use a third-party theme, simply add the theme's directory to your `themes/` directory (e.g. `themes/some_other_theme/`) and update your `config/config.yml` accordingly. Pico's default theme is now completely disabled and won't ever interfere with your custom theme or your website in general anymore. If you want to use Pico's default theme again, either remove the line or replace it by `theme: default`.
 
-Anyway, since Pico's default theme is meant to be a starting point for your own theme, it demonstrates how themes can allow one to tweak a theme's behavior. For this reason it supports a "Widescreen" mode: By adding `theme_config.widescreen: true` to your `config/config.yml`, the theme's main container grows from 768px to 1152px breadth due to adding `class="widescreen"` to the website's `<body>` element. Pico's default theme furthermore supports adding social buttons to its footer. Rather than using Pico's config for this, it uses the YAML Frontmatter of the `content/_meta.md` Markdown file. Here's `content/_meta.md` from Pico's sample contents:
+Anyway, since Pico's default theme is meant to be a starting point for your own theme, it demonstrates how themes can allow one to tweak a theme's behavior. For this reason it supports a "Widescreen" mode: By adding `theme_config.widescreen: true` to your `config/config.yml`, the theme's main container grows from 768px to 1152px breadth due to adding `class="widescreen"` to the website's `<body>` element. Pico's default theme furthermore supports displaying both a logo and a tagline in its header, as well as adding social buttons to its footer. Rather than using Pico's config for this, it uses the YAML Frontmatter of the `content/_meta.md` Markdown file. Here's `content/_meta.md` from Pico's sample contents:
 
 ```yaml
 ---
-social:
+Logo: %theme_url%/img/pico-white.svg
+Tagline: Making the web easy.
+Social:
     - title: Visit us on GitHub
       url: https://github.com/picocms/Pico
       icon: octocat
@@ -49,6 +51,8 @@ social:
       icon: chat
 ---
 ```
+
+You should also check out the theme's `pico-theme.yml`: First of all it tells Pico to use the latest API version for themes and adjusts Pico's default Twig config. But more importantly it also registers the mentioned `widescreen` theme config as well as the meta headers `Logo`, `Tagline` and `Social`.
 
 Getting Help
 ------------
