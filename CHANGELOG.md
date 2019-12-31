@@ -8,6 +8,11 @@ Pico Default Theme Changelog
           refer to both the UPGRADE and NEWS sections of the docs for more
           details.
 
+### Version 2.1.1
+Released: 2019-12-31
+
+No changes
+
 ### Version 2.1.0
 Released: 2019-11-24
 
