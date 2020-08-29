@@ -28,10 +28,12 @@ function main()
 
     // responsive menu
     var menu = document.getElementById('nav'),
-        menuToggle = document.getElementById('nav-toggle'),
-        toggleMenuEvent = function (event) {
+        menuToggle = document.getElementById('nav-toggle');
+
+    if (menu && menuToggle) {
+        function toggleMenuEvent(event) {
             if (event.type === 'keydown') {
-                if ((event.keyCode != 13) && (event.keyCode != 32)) {
+                if ((event.keyCode !== 13) && (event.keyCode !== 32)) {
                     return;
                 }
             }
@@ -49,8 +51,9 @@ function main()
                 menuToggle.setAttribute('aria-expanded', 'false');
                 utils.slideUp(menu);
             }
-        },
-        onResizeEvent = function () {
+        }
+
+        function onResizeEvent() {
             if (utils.isElementVisible(menuToggle)) {
                 menu.className = 'hidden';
                 menuToggle.addEventListener('click', toggleMenuEvent);
@@ -61,10 +64,11 @@ function main()
                 menuToggle.removeEventListener('click', toggleMenuEvent);
                 menuToggle.removeEventListener('keydown', toggleMenuEvent);
             }
-        };
+        }
 
-    window.addEventListener('resize', onResizeEvent);
-    onResizeEvent();
+        window.addEventListener('resize', onResizeEvent);
+        onResizeEvent();
+    }
 }
 
 main();
