@@ -8,6 +8,23 @@ Pico Default Theme Changelog
           refer to both the UPGRADE and NEWS sections of the docs for more
           details.
 
+### Version 2.1.4
+Released: 2020-08-29
+
+```
+* [Changed] Don't setup nav toggle JavaScript when there's no menu
+```
+
+### Version 2.1.3
+Released: 2020-07-10
+
+No changes
+
+### Version 2.1.2
+Released: 2020-04-10
+
+No changes
+
 ### Version 3.0.0-alpha.1
 Released: 2020-03-29
 
