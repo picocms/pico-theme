@@ -43,9 +43,9 @@
             </div>
             <div id="nav" role="navigation" tabindex="-1">
                 <ul>
-                    {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                    {% for page in pages(depthOffset=-1) if not page.hidden %}
                         <li{% if page.id == current_page.id %} class="active"{% endif %}>
-                            <a href="{{ page.url }}">{{ page.title }}</a>
+                            <a href="{{ page.url }}">{{ page.title ?: page.id }}</a>
                         </li>
                     {% endfor %}
                 </ul>
