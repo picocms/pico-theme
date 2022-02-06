@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-    <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+    <title>{{ meta.title ? meta.title ~ " | " }}{{ site_title }}</title>
     {% if meta.description %}
         <meta name="description" content="{{ meta.description|striptags }}" />
     {% endif %}
