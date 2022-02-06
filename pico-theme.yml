@@ -1,4 +1,4 @@
-api_version: 3                  # Use Pico's latest API version for themes
+api_version: 4                  # Use Pico's latest API version for themes
 
 meta:                           # Register meta headers used by this theme
     Logo: logo                  # The URL to your website's logo (value is passed to Pico's "url" Twig filter)
