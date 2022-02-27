@@ -4,8 +4,8 @@
  * Pico is a stupidly simple, blazing fast, flat file CMS.
  *
  * @author  Daniel Rudolf
- * @link    http://picocms.org
- * @license http://opensource.org/licenses/MIT The MIT License
+ * @link    https://picocms.org
+ * @license https://opensource.org/licenses/MIT The MIT License
  * @version 3.0
  */
 

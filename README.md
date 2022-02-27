@@ -3,7 +3,7 @@ Pico Default Theme
 
 This is the repository of Pico's official default theme.
 
-Pico is a stupidly simple, blazing fast, flat file CMS. See http://picocms.org/ for more info.
+Pico is a stupidly simple, blazing fast, flat file CMS. See https://picocms.org/ for more info.
 
 Please refer to [`picocms/Pico`](https://github.com/picocms/Pico) to get info about how to contribute or getting help.
 
