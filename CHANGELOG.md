@@ -8,6 +8,13 @@ Pico Default Theme Changelog
           refer to both the UPGRADE and NEWS sections of the docs for more
           details.
 
+### Version 3.0.0-alpha.2
+Released: 2020-12-24
+
+```
+* [Changed] Merge all fixes of Pico v2.1.2 to v2.1.4
+```
+
 ### Version 2.1.4
 Released: 2020-08-29
 
