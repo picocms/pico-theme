@@ -8,6 +8,17 @@ Pico Default Theme Changelog
           refer to both the UPGRADE and NEWS sections of the docs for more
           details.
 
+### Version 3.0.0-beta.1
+Released: -
+
+```
+* [New] Update to API version 4 (no changes necessary)
+* [Changed] Include non-hidden pages without a title in the navigation menu;
+            use the page ID as fallback for the missing page title
+* [Changed] Update syntax to Twig 3.3
+* [Changed] Update credits in theme footer
+```
+
 ### Version 3.0.0-alpha.2
 Released: 2020-12-24
 
