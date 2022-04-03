@@ -15,6 +15,7 @@ Released: -
 * [New] Update to API version 4 (no changes necessary)
 * [Changed] Include non-hidden pages without a title in the navigation menu;
             use the page ID as fallback for the missing page title
+* [Changed] Don't justify text contents by default
 * [Changed] Update syntax to Twig 3.3
 * [Changed] Update credits in theme footer
 ```
