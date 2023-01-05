@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-    <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+    <title>{{ meta.title ? meta.title ~ " | " }}{{ site_title }}</title>
     {% if meta.description %}
         <meta name="description" content="{{ meta.description|striptags }}" />
     {% endif %}
@@ -43,10 +43,12 @@
             </div>
             <div id="nav" role="navigation" tabindex="-1">
                 <ul>
-                    {% for page in pages(depthOffset=-1) if not page.hidden %}
-                        <li{% if page.id == current_page.id %} class="active"{% endif %}>
-                            <a href="{{ page.url }}">{{ page.title ?: page.id }}</a>
-                        </li>
+                    {% for page in pages(depthOffset=-1) %}
+                        {% if not page.hidden %}
+                            <li{% if page.id == current_page.id %} class="active"{% endif %}>
+                                <a href="{{ page.url }}">{{ page.title ?: page.id }}</a>
+                            </li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
             </div>
@@ -70,8 +72,9 @@
                 {% endfor %}
             </div>
             <p>
-                <a href="http://picocms.org/">Pico</a> was made by <a href="http://gilbert.pellegrom.me">Gilbert Pellegrom</a>
-                and is maintained by <a href="https://github.com/picocms/Pico/graphs/contributors">The Pico Community</a>.
+                <a href="https://picocms.org/">Pico</a> was made by <a href="https://gilbitron.me/">Gilbert Pellegrom</a>
+                and is brought to you by <a href="https://www.daniel-rudolf.de">Daniel Rudolf</a> and
+                <a href="https://github.com/picocms/Pico/graphs/contributors">The Pico Community</a>.
                 Released under the <a href="https://github.com/picocms/Pico/blob/master/LICENSE.md">MIT license</a>.
             </p>
         </div>
