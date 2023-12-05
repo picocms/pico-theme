@@ -1,6 +1,10 @@
 api_version: 3                  # Use Pico's latest API version for themes
 
 meta:                           # Register meta headers used by this theme
+                                # You may add further meta headers for your theme.
+                                # The string on the left side shall be used in the content headers to set a value for the page.
+                                # Access the value in your themes twig files via the string on the right side i.e. {{ page.meta.tagline }}
+
     Logo: logo                  # The URL to your website's logo (value is passed to Pico's "url" Twig filter)
     Tagline: tagline            # Your website's tag line, shown right below your site title (supports Markdown)
     Social: social              # A list of social icons that will be shown in your website's footer;
