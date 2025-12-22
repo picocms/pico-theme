@@ -3,7 +3,7 @@
     "type": "pico-theme",
     "description": "This is Pico's official default theme. Pico is a stupidly simple, blazing fast, flat file CMS.",
     "keywords": [ "pico", "picocms", "picocms-theme", "pico-theme", "default-theme" ],
-    "homepage": "http://picocms.org/",
+    "homepage": "https://picocms.org/",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         },
         {
             "name": "The Pico Community",
-            "homepage": "http://picocms.org/"
+            "homepage": "https://picocms.org/"
         },
         {
             "name": "Contributors",
@@ -21,7 +21,7 @@
         }
     ],
     "support": {
-        "docs": "http://picocms.org/themes/default/",
+        "docs": "https://picocms.org/themes/default/",
         "issues": "https://github.com/picocms/pico-theme/issues",
         "source": "https://github.com/picocms/pico-theme"
     },

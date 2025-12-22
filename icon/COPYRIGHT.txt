@@ -6,7 +6,7 @@ Icon fonts generator
 
     Author:     Vitaly Puzrin
     License:    The MIT License <https://github.com/fontello/fontello/blob/master/LICENSE>
-    Homepage:   http://fontello.com/
+    Homepage:   https://fontello.com/
 
 
 
@@ -17,7 +17,7 @@ Font license info
     Copyright (C) 2016 by Dave Gandy
 
     Author:     Dave Gandy
-    License:    SIL OFL 1.1 <http://scripts.sil.org/OFL>
-    Homepage:   http://fortawesome.github.com/Font-Awesome/
+    License:    SIL OFL 1.1 <https://scripts.sil.org/OFL>
+    Homepage:   https://fontawesome.com/
 
     Icons:      chat, github-circled ("octocat"), menu, dollar
